@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//#define NULL_VALUE -1 //if the array contains negative numbers, this can be used
 int main() {
     int inputArray[]={2,1,2,3,3,3,4,4,4,4}; //Initializing the input array
     int size=sizeof(inputArray)/sizeof(inputArray[0]);  //Determining the size of the array
