@@ -1,0 +1,420 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("./../fonts/Avenir\ Regular/Avenir Regular.ttf");
+}
+html {
+  /* font-family: "Oswald","comic";
+   */
+  font-family: "Avenir", sans-serif;
+}
+body {
+  margin: 0px;
+}
+.top-logo {
+  width: 100%;
+  text-align: center;
+}
+.top-logo-image {
+  height: 90px;
+}
+.top-navigation {
+  text-align: center;
+  font-weight: 600;
+  font-family: "Oswald";
+  font-size: large;
+  padding-top: 30px;
+  background-color: white;
+  height: 60px;
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+.fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000; /* Ensure the navbar stays on top of other content */
+    }
+.top-navigation-item {
+  position: relative;
+  height: 80vh;
+  padding-bottom: 30px;
+}
+.main-banner {
+  background-image: url("./../images/KBFC-S11-FIXTURE-1-01.jpeg-1.jpg");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent 60%, #000 100%, #000 60%);
+}
+.main-banner-elements {
+  padding-left: 10%;
+  position: relative;
+  padding-top: 35vh;
+  bottom: 0;
+  left: 0;
+}
+.main-banner-h4 {
+  color: yellow;
+}
+.main-banner-title {
+  width: 55%;
+  color: white;
+  font-size: 35px;
+}
+.main-banner-button {
+  background-color: #0b056c;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 80px;
+  margin-right: 40px;
+}
+.news {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(14, 0, 255, 1) 100%
+  );
+  /* background-color: rgba(0, 48, 135, 1); */
+  height: 800px;
+  margin: 0;
+}
+.news-tile {
+  width: 30%;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 15px;
+}
+.news-tile-text {
+  background-color: white;
+  text-align: center;
+  height: 100%;
+}
+.news-tile-text p {
+  padding-top: 10%;
+}
+
+.news-tile-text h3 {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.box-image {
+  max-width: 50%;
+  float: left;
+  margin-top: 15px;
+  height: 100%;
+}
+.news-tile-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.next-fixture {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+}
+.next-fixture-standing {
+  width: 50%;
+  height: 50vh;
+  text-align: right;
+}
+.standing-image {
+  margin-left: auto;
+  width: 60%;
+}
+.next-fixture-logo {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: row;
+}
+.next-fixture-logoIcon {
+  width: 20%;
+}
+.next-fixture-link {
+  margin-top: 4%;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+}
+.next-fixture-countdown {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10%;
+  margin-bottom: 30px;
+}
+.grey-box {
+  background-color: #f0f0f0;
+  font-size: small;
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+.next-fixture-button {
+  text-align: center;
+}
+.get-ticket-button {
+  background-color: #006ec3;
+  color: white;
+  font-size: 20px;
+  border-radius: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+.featured-video {
+  height: 80vh;
+  background-color: #020381;
+}
+.featured-video-main-title {
+  color: white;
+  padding: 30px;
+}
+.featured-video-subtitle {
+  color: white;
+  padding: 30px;
+}
+.featured-video-videos {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: right;
+  align-items: center;
+}
+.featured-video-video {
+  padding: 10px;
+  padding-left: 40px;
+}
+.season-ticket {
+  display: flex;
+  flex-direction: right;
+}
+.season-ticket-content {
+  width: 50%;
+  padding: 5%;
+}
+.season-ticket-content h2 {
+  color: #003087;
+}
+
+.season-ticket-content ul {
+  padding-bottom: 10%;
+}
+.season-ticket-poster-image {
+  width: 50%;
+  padding: 7%;
+}
+.buy-now-button {
+  background-color: #006ec3;
+  color: white;
+  font-size: 20px;
+  border-radius: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.kbfctv {
+  height: 100vh;
+  background-color: #020381;
+}
+.kbfctv-image {
+  width: 15%;
+  padding: 20px;
+}
+.kbfctv-content {
+  padding: 10px;
+  color: whitesmoke;
+}
+.kbfctv-first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.kbfctv-second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.kbfctv-video iframe {
+  padding: 20px;
+}
+.kitting {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+.kitting-content {
+  width: 50%;
+  height: 90vh;
+}
+.kitting-content h2 {
+  color: #020381;
+  padding-left: 40%;
+  padding-top: 5%;
+}
+.kitting-content p {
+  padding-left: 40%;
+}
+.kitting-button {
+  width: 20%;
+  background-color: #006ec3;
+  color: white;
+  font-size: 15px;
+  border-radius: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5%;
+  margin-left: 40%;
+}
+.kitting-image {
+  width: 50%;
+}
+.kitting-image-kbfc {
+  width: 60%;
+  padding-top: 40px;
+}
+.official-kit {
+  height: 110vh;
+  background-color: #020381;
+}
+.official-kit h2 {
+  color: white;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.official-kit p {
+  color: whitesmoke;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.official-kit-image-row {
+  display: flex;
+  flex-direction: row;
+}
+.official-kit-box {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  text-align: center;
+}
+.official-kit-image {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.official-kit-buy-button {
+  background-color: #006ec3;
+  text-align: center;
+  color: #020381;
+  background-color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 20px;
+  border-radius: 40px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 20px;
+}
+.gallery-text {
+  color: white;
+  text-align: center;
+  margin-left: 30%;
+}
+.gallery-image {
+  width: 100%;
+}
+.sponsors {
+  height: 200vh;
+  text-align: center;
+}
+.sponsors h1 {
+  font-weight: 800;
+  padding: 5%;
+  color: #0b056c;
+}
+.sponsors p {
+  color: #7a7a7a;
+}
+.sponsors-first-row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+.sponsors-last-row {
+  padding: 5%;
+  text-align: left;
+}
+.footer {
+  width: 100%;
+  margin-top: 40vh;
+  height: 90vh;
+  border: 2x solid red;
+  background: url("./../images/stadium.webp") no-repeat fixed;
+  background-size: 100% 100%;
+}
+.transbox {
+  background-color: #000000;
+  height: 100%;
+  opacity: 0.6;
+  display: flex;
+  flex-direction: row;
+}
+.about-us {
+  color: white;
+  width: 50%;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.about-us-header {
+  color: white;
+  font-size: 30px;
+}
+
+.about-us p {
+  padding-bottom: 30px;
+}
+.location-icon {
+  width: 20px;
+}
+.location {
+  color: yellow;
+}
+
+.quick-links {
+  color: yellow;
+  width: 50%;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.quick-links h3 {
+  color: white;
+  font-size: 30px;
+}
+.quick-links ul li {
+  padding-left: 10px;
+  padding-top: 10px;
+}
